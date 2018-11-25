@@ -3,12 +3,19 @@
     .projects_wrapper_1, .projects_wrapper_2 {
         display: flex;
        width: 100%; 
-}
+    }
     
     .projects {
         width: 50%;
-        margin: 0px 20px;
-        }
+    }
+
+    .projects:first-child {
+        margin-right: 15px;
+     }
+
+    .projects:last-child {
+        margin-left: 15px;
+    }
     
     #name_title {
         font-size: 40px;
@@ -34,9 +41,9 @@
     .about_me_wrapper {
         display: flex;
     }
-    
+
     .project_img {
-    border-radius: 5px;
+        border-radius: 5px;
     }
 }
 
