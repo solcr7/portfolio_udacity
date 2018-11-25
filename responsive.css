@@ -1,0 +1,50 @@
+@media screen and (min-width: 560px) {
+
+    .projects_wrapper_1, .projects_wrapper_2 {
+        display: flex;
+       width: 100%; 
+}
+    
+    .projects {
+        width: 50%;
+        margin: 0px 20px;
+        }
+    
+    #name_title {
+        font-size: 40px;
+    }
+
+    #name_subtitle {
+        font-size: 25px;
+    }
+
+    .section_title {
+        font-size: 40px;
+        margin-top: 25px;
+    }
+
+    .paragraph_title,
+    .paragraph_title_about {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 690px) {
+    .paragraph_title_about {
+        text-align: left;
+    }
+    .about_me_wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+      
+}
+
+@media screen and (min-width: 1000px) {
+    html {
+        width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
