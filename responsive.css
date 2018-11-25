@@ -1,5 +1,5 @@
-@media screen and (min-width: 560px) {
 
+@media screen and (min-width: 690px) {
     .projects_wrapper_1, .projects_wrapper_2 {
         display: flex;
        width: 100%; 
@@ -27,17 +27,17 @@
     .paragraph_title_about {
         font-size: 30px;
     }
-}
 
-@media screen and (min-width: 690px) {
     .paragraph_title_about {
         text-align: left;
     }
     .about_me_wrapper {
         display: flex;
-        justify-content: space-between;
     }
-      
+    
+    .project_img {
+    border-radius: 5px;
+    }
 }
 
 @media screen and (min-width: 1000px) {
@@ -45,6 +45,15 @@
         width: 1000px;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .header_background img,
+    #nav_box {
+        border-radius: 5px;
+    }
+
+    footer {
+        border-radius: 5px 5px 0px 0px;
     }
 
 }
