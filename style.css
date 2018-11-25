@@ -1,3 +1,7 @@
+/* 
+set box sizing 
+source: https://css-tricks.com/box-sizing/
+*/
 
 html {
     -webkit-box-sizing: border-box;
@@ -52,10 +56,9 @@ main {
     margin: 0px 15px 0px 0px;
 }
 
-#header_line {
+.header_line {
     border-color: #7d97ad;
     border-style: solid;
-    size: 5px;
     width: 90%;
     margin: 35px auto;
 }
